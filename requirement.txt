@@ -1,0 +1,15 @@
+# Regular EDA and plotting libraries
+import numpy as np
+import pandas as pd 
+import matplotlib.pyplot as plt
+import seaborn as sns 
+
+# We want our plots to appear in the notebook
+%matplotlib inline 
+
+## Models
+from sklearn.ensemble import RandomForestRegressor
+
+## Model evaluators
+from sklearn.metrics import mean_squared_log_error, mean_absolute_error, r2_score
+from sklearn.model_selection import RandomizedSearchCV
